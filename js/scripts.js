@@ -1,12 +1,14 @@
 // Back End
 function evaluateYear(year) {
-	if (year % 4 === 0) {
+	if (year % 100 === 0) {
+		return false;
+	}
+	else if (year % 4 === 0) {
 		return true;
   } else {
 		return false;
-}
-
 	}
+};
 	
 //Front End
 
@@ -19,7 +21,7 @@ $(document).ready(function() {
     var year = $("#input-1").val();
     console.log(evaluateYear(year));
 	
-    
+    $(".output").text(year)
    
 	});
 });
