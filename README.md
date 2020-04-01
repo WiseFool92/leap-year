@@ -60,9 +60,10 @@ git clone {link to repository}
 |                          Behavior                          | Input  | Output  |
 | :--------------------------------------------------------: | :----: | :-----: |
 | The program does nothing to non-alphabetical characters | '4' | '4'  |
-| The program adds "ay" to single-letter words beginning with a vowel. | 'a' | 'ay' |  
-| The program adds "way" to the end of words beginning with a vowel | 'Apple' | 'Appleway' |
-| The program adds "ay" to the end, when a word starts with a consonant and vowel | '1993' | 'false' |
+| The program adds "yay" to single-letter words beginning with a vowel. | 'I' | 'I-yay' |  
+| The program adds "yay" to the end of words beginning with a vowel | 'Apple' | 'Apple-yay' |
+| The program will take words that start with consecutive consonants and move those consonants to the end and add "ay" to the word | "create"| 'eatecr-ay' |
+| The program will take words containing "qu" and treat it as one letter, it will remove the "u" as well as the "q" and place to the back of the word| 'squeal' | 'ealsqu-ay' |
 
 
 ## Support
