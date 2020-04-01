@@ -6,6 +6,6 @@ $(document).ready(function() {
 		event.preventDefault();
     console.log('click');
     
-    if(vowel === "aIou" || vowel === "A")
+   
 	});
 });
