@@ -2,9 +2,9 @@
 
 function evaluateYear(year) {
   if ((year % 4 === 0 && year % 100 !== 0) || year % 400 === 0) {
-    return true;
+    return `the year ${year} is a leap year`;
   } else {
-    return false;
+    return `the year ${year} isn't a leap year`;
   }
 }
 
@@ -17,7 +17,7 @@ $(document).ready(function() {
   $("form").submit(function(event) {
     event.preventDefault();
     var year = $("#input-1").val();
-    $(".output1").text(`the year ${year} is ${evaluateYear(year)} and is a leap year`);
+    $(".output1").text(evaluateYear(year));
 
     
   });

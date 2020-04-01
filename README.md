@@ -48,13 +48,21 @@ git clone {link to repository}
 ## Specs
 
 ### Behavior Driven Development Spec List
-
+#### Leap year
 |                          Behavior                          | Input  | Output  |
 | :--------------------------------------------------------: | :----: | :-----: |
 | The program should return 'true' for years divisible by 4  | '2004' | 'true'  |
 | The program should return false for years divisible by 100 | '1900' | 'false' |  
 | The program should return 'true' for years divisible by 400 | '2000' | 'true' |
 | The program should return 'false' when a year is not a leap year | '1993' | 'false' |
+---
+#### Pig Latin 
+|                          Behavior                          | Input  | Output  |
+| :--------------------------------------------------------: | :----: | :-----: |
+| The program does nothing to non-alphabetical characters | '4' | '4'  |
+| The program adds "ay" to single-letter words beginning with a vowel. | 'a' | 'ay' |  
+| The program adds "way" to the end of words beginning with a vowel | 'Apple' | 'Appleway' |
+| The program adds "ay" to the end, when a word starts with a consonant and vowel | '1993' | 'false' |
 
 
 ## Support
