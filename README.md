@@ -1,8 +1,8 @@
-# _Boilerplate Website_
+# _Leap Year_
 
-#### _This site comes with the all basic parts to get you started making a single page website fast. | Jan 24. 2020_
+#### _This site comes with the all basic parts to get you started making a single page website fast. | April 1st. 2020_
 
-#### By _**Joshua Hellman**_
+#### By _**Joshua Hellman & Nathan Watkins-Hoagland**_
 
 ## Description
 
@@ -49,10 +49,13 @@ git clone {link to repository}
 
 ### Behavior Driven Development Spec List
 
-|                          Behavoir                          |       Input        |       Output       |
-| :--------------------------------------------------------: | :----------------: | :----------------: |
-|    The program takes in input and console.log a 'click'    |     'any word'     |      'click'       |
-| The program takes in any words and console logs the output | 'learning to code' | 'learning to code' |
+|                          Behavior                          | Input  | Output  |
+| :--------------------------------------------------------: | :----: | :-----: |
+| The program should return 'true' for years divisible by 4  | '2004' | 'true'  |
+| The program should return false for years divisible by 100 | '1900' | 'false' |  
+| The program should return 'true' for years divisible by 400 | '2000' | 'true' |
+| The program should return 'false' when a year is not a leap year | '1993' | 'false' |
+
 
 ## Support
 
@@ -98,4 +101,4 @@ _The software is provided as is. It might work as expected - or not. Just don't 
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
-Copyright (c) 2020 **_Joshua Hellman_**
+Copyright (c) 2020 **_Joshua Hellman & Nathan Watkins-Hoagland_**
