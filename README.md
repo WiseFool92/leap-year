@@ -6,7 +6,7 @@
 
 ## Description
 
-_This boilerplate site has one index.html file that is already linked to the included bootstrap.css(4.4), styles.css, jQuery.js(3.4.1), and scripts.js._
+_This leapyear site has one index.html file that is already linked to the included bootstrap.css(4.4), styles.css, jQuery.js(3.4.1), and scripts.js._
 
 There is a pre-built two input form with a submit button. There is also a simple jQuery function that will console.log when the submit button is clicked.
 
