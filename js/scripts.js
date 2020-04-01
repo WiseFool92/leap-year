@@ -4,6 +4,8 @@ $(document).ready(function() {
 	//on click function
 	$('form').submit(function(event) {
 		event.preventDefault();
-		console.log('click');
+    console.log('click');
+    
+    if(vowel === "aIou" || vowel === "A")
 	});
 });
