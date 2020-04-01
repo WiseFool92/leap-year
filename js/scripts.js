@@ -16,6 +16,14 @@ function createPiglatin(phrase) {
     var word = phraseArray[index];
     const notChar = word.match(/^[A-Za-z]+$/g);
     if (notChar === null) {
+    } else if(word.length === 1) {    
+      const notaVowel = word.match(/[aeiouAEIOU]/g)
+      //console.log(notaVowel);
+      if(notaVowel === null){ 
+      } else{
+        word += '-yay'
+        phraseArray[index] = word 
+      }
     } else {
       console.log(notChar);
 
